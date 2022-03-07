@@ -1,0 +1,86 @@
+body{
+    height: 100vh;
+    margin:auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    background-color: #FFF;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 13px rgb(red, green, blue/100%);
+}
+
+h1 {
+    background-color: #cef5ce;
+    padding:10px 0;
+    font-size: 20px;
+    border-radius: 18px;
+}
+
+p{
+color: goldenrod;
+font-size: 20px;
+}
+
+.control {
+    margin: 25px 0;
+}
+
+input{
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom: 1px solid #16a465 ;
+    color: #16a465;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+select {
+   
+        border: none;
+        outline: none;
+        border: 1px solid #16a465 ;
+        color: #16a465;
+        font-size: 20px;
+        margin-top: 20px;
+        padding: 11px 34px;
+        border-radius: 25px;
+        width: 75%;
+}
+
+button#Calculate {
+    color: white;
+    background: #16a465 ;
+    border:1px solid transparent;
+    font-size: 17px;
+    border-radius: 25px;
+    padding: 14px 29px;
+    margin:25px;
+    transition: all .3s ease;
+}
+
+button#Calculate:hover{
+color: #16a465;
+border-color: #16a465;
+background: #FFF;
+}
+
+.TotalTip {
+    background-color: #cef5e4;
+    border-radius: 18px;
+    padding: 25px 0 35px;
+}
+
+p.tip {
+    font-size: 20px;
+    color: #16a465;
+    margin-top: 10px;
+}
